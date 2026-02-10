@@ -1,0 +1,205 @@
+-- ============================================================
+-- FILE LOCATIONS REFERENCE - FINAL SALE CUTSCENE SYSTEM
+-- ============================================================
+
+================================================================================
+FILE: client.lua
+================================================================================
+
+LOCATION 1 - Main function Outside() 
+Lines 907-928
+Function that:
+  - Shows "deliver_to_buyer" notification
+  - Loads 'baller' vehicle model
+  - Creates buyerBlip at finishHeist position
+  - Creates buyerVehicle
+  - Loops checking distance to buyer
+  - Triggers PlayCutscene() when distance <= 15.0
+  - Cleans up vehicle and blip
+  - Triggers server event to process sale
+
+---
+
+LOCATION 2 - PlayCutscene() function
+Lines 967-978
+Main cutscene playback function:
+  - Loads cutscene 'hs3f_all_drp2' into memory
+  - Calls CreateCutscene()
+  - Calls Finish()
+  - Removes cutscene from memory
+  - Fades screen in
+
+---
+
+LOCATION 3 - CreateCutscene() function  
+Lines 980-1030
+Sets up the cutscene scene:
+  - Clones player 5 times (for MP_1 to MP_5 slots)
+  - Sets clone properties (visible, invincible, frozen)
+  - Registers entities for cutscene
+  - Starts cutscene at coordinates
+  - Cleans up cloned entities
+  - Fades screen in
+
+---
+
+LOCATION 4 - Finish() function
+Lines 1032-1045
+Waits for cutscene completion:
+  - Monitors cutscene time remaining
+  - Applies screen fade out 250ms before end
+  - Removes cutscene completely
+  - Handles coordinate-based cutscenes
+
+---
+
+LOCATION 5 - Helper functions (used by cutscene system)
+Lines 1047-1097
+  - loadPtfxAsset() - Loads particle effects
+  - loadAnimDict() - Loads animation dictionaries  
+  - loadModel() - Loads entity models
+  - addBlip() - Creates map markers
+  - AddTimerBar() - Creates timer UI
+
+================================================================================
+FILE: server.lua
+================================================================================
+
+LOCATION 6 - Server Event Handler
+Lines 225-278
+Event: 'undergroundheist:server:sellRewardItems'
+
+Handlers for both ESX and QB-Core frameworks:
+  - Gets player object
+  - Loops through rewardItems config
+  - Removes items from player inventory
+  - Adds money (black_money or regular)
+  - Logs to Discord via discordLog()
+  - Sends notification back to client
+
+ESX Players:
+  - Uses player.getInventoryItem()
+  - Uses player.removeInventoryItem()
+  - Uses player.addAccountMoney() or player.addMoney()
+
+QB-Core Players:
+  - Uses player.Functions.GetItemByName()
+  - Uses player.Functions.RemoveItem()
+  - Uses player.Functions.AddMoney()
+  - Uses player.Functions.AddItem() for markedbills
+
+================================================================================
+FILE: config.lua
+================================================================================
+
+LOCATION 7 - Finish Location Configuration  
+Lines 41-43
+Config['UndergroundHeist']['finishHeist'] = {
+    buyerPos = vector3(729.451, -555.40, 25.5128)
+}
+This is the exact location where:
+  - Buyer NPC appears
+  - Cutscene is triggered
+  - Player must reach to start the animation
+
+---
+
+LOCATION 8 - Reward Items Configuration
+Lines 20-30 (approximately)
+Config['UndergroundHeist']['rewardItems'] = {
+    {itemName = 'weed_pooch', count = 25, sellPrice = 100},
+    {itemName = 'coke_pooch', count = 25, sellPrice = 100},
+    {itemName = 'virus',      count = 1,  sellPrice = 100},
+    {itemName = 'gold',       count = 50, sellPrice = 100},
+    {itemName = 'chest_gold', count = 25, sellPrice = 100},
+    {itemName = 'cashbon',    count = 2,  sellPrice = 100},
+}
+These items are processed by the server event handler.
+Each item is converted to money at sellPrice value.
+
+===================================================
+CUTSCENE NAME & PARAMETERS
+===================================================
+
+Cutscene ID: 'hs3f_all_drp2'
+  - This is a GTA V Heist Series 3 animation
+  - It's a delivery animation showing hands exchanging money/items
+  - Supports up to 5 MP slots for different player positions
+
+Coordinates: Config['UndergroundHeist']['finishHeist']['buyerPos']
+  - vector3(729.451, -555.40, 25.5128)
+  - This is where the cutscene is anchored
+  - Player's position relative to this point affects animation viewing
+
+Vehicle Used: 'baller'
+  - Black vehicle model spawned at buyer location
+  - Used as prop in the cutscene background
+  - Deleted after cutscene completes
+
+===================================================
+EVENT TRIGGER CHAIN
+===================================================
+
+1. Client: Outside() function detected distance 
+2. Client: PlayCutscene('hs3f_all_drp2', coords)
+3. Client: RequestCutscene() - loads from game files  
+4. Client: CreateCutscene() - creates 5 player clones
+5. Client: StartCutsceneAtCoords() - plays animation
+6. Client: Finish() - waits & applies effects
+7. Client: TriggerServerEvent('undergroundheist:server:sellRewardItems')
+8. Server: RegisterServerEvent handler processes the sale
+9. Server: Removes items, adds money, logs event
+10. Server: TriggerClientEvent notification back to player
+
+===================================================
+NOTIFICATIONS/STRINGS USED
+===================================================
+
+Client-side:
+- Strings['deliver_to_buyer'] - Shown when heading to buyer
+- Strings['buyer_blip'] - Marker name on map
+
+Server-side:
+- Strings['total_money'] - Shown with final money amount
+
+Discord:
+- '{PlayerName} - {Identifier} Gain ${Amount} on the Underground Heist Buyer!'
+
+===================================================
+DEPENDENCIES
+===================================================
+
+Client:
+- loadModel() - To load 'baller' vehicle
+- RemoveBlip(), addBlip() - Marker management
+- CreateVehicle() - To spawn buyer vehicle
+- Strings table - Localized text
+
+Server:
+- Framework object (ESX or QBCore) - For player data
+- discordLog() - For logging sales
+- Config table - For reward items and settings
+
+===================================================
+NOTES FOR MODIFICATION
+===================================================
+
+If you want to modify the cutscene:
+- Change line 923: PlayCutscene('hs3f_all_drp2', ...) 
+- Search GTA cutscenes directory for alternatives
+- Common heist cutscenes: hs3_all_*, hs2_all_*
+
+If you want to change buyer location:
+- Modify config.lua line 42: buyerPos = vector3(X, Y, Z)
+- This affects both cutscene position and player detection zone
+
+If you want to change reward items:
+- Modify config.lua rewardItems array with:
+  - itemName: Item identifier in your inventory system
+  - count: Min quantity required to process
+  - sellPrice: Money per item unit
+
+If you want to change payment type:
+- Modify config.lua: ['black_money'] = true/false
+- true = converted to black money / markedbills (QB)
+- false = regular money / cash (QB)
