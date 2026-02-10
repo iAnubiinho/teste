@@ -1,0 +1,72 @@
+["coke_pooch"] = {
+    ["name"] = "coke_pooch",
+    ["label"] = "Coke Pooch",
+    ["weight"] = 200,
+    ["type"] = "item",
+    ["image"] = "blowtorch.png",
+    ["unique"] = false,
+    ["useable"] = false,
+    ["shouldClose"] = false,
+    ["combinable"] = nil,
+    ["description"] = "0x0x"
+},
+["gold"] = {
+    ["name"] = "gold",
+    ["label"] = "Gold Bar",
+    ["weight"] = 200,
+    ["type"] = "item",
+    ["image"] = "blowtorch.png",
+    ["unique"] = false,
+    ["useable"] = false,
+    ["shouldClose"] = false,
+    ["combinable"] = nil,
+    ["description"] = "0x0x"
+},
+["diamond"] = {
+    ["name"] = "diamond",
+    ["label"] = "Diamond Box",
+    ["weight"] = 200,
+    ["type"] = "item",
+    ["image"] = "blowtorch.png",
+    ["unique"] = false,
+    ["useable"] = false,
+    ["shouldClose"] = false,
+    ["combinable"] = nil,
+    ["description"] = "0x0x"
+},
+["key1"] = {
+    ["name"] = "key1",
+    ["label"] = "Casino Key 1",
+    ["weight"] = 200,
+    ["type"] = "item",
+    ["image"] = "key1.png",
+    ["unique"] = false,
+    ["useable"] = false,
+    ["shouldClose"] = false,
+    ["combinable"] = nil,
+    ["description"] = "0x0x"
+},
+["key2"] = {
+    ["name"] = "key2",
+    ["label"] = "Casino Key 2",
+    ["weight"] = 200,
+    ["type"] = "item",
+    ["image"] = "key2.png",
+    ["unique"] = false,
+    ["useable"] = false,
+    ["shouldClose"] = false,
+    ["combinable"] = nil,
+    ["description"] = "0x0x"
+},
+["drill"] = {
+    ["name"] = "drill",
+    ["label"] = "Drill",
+    ["weight"] = 200,
+    ["type"] = "item",
+    ["image"] = "drill.png",
+    ["unique"] = false,
+    ["useable"] = false,
+    ["shouldClose"] = false,
+    ["combinable"] = nil,
+    ["description"] = "0x0x"
+}
