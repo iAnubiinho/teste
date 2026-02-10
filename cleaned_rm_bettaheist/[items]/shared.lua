@@ -1,0 +1,82 @@
+["bag"] = {
+    ["name"] = "bag",
+    ["label"] = "Bag",
+    ["weight"] = 5,
+    ["type"] = "item",
+    ["image"] = "bag.png",
+    ["unique"] = false,
+    ["useable"] = false,
+    ["shouldClose"] = false,
+    ["combinable"] = nil,
+    ["description"] = "Bag"
+},
+["cutter"] = {
+    ["name"] = "cutter",
+    ["label"] = "cutter",
+    ["weight"] = 5,
+    ["type"] = "item",
+    ["image"] = "cutter.png",
+    ["unique"] = false,
+    ["useable"] = false,
+    ["shouldClose"] = false,
+    ["combinable"] = nil,
+    ["description"] = "Cutter"
+},
+["diamond"] = {
+    ["name"] = "diamond",
+    ["label"] = "Diamond",
+    ["weight"] = 100,
+    ["type"] = "item",
+    ["image"] = "vandiamond.png",
+    ["unique"] = false,
+    ["useable"] = false,
+    ["shouldClose"] = true,
+    ["combinable"] = nil,
+    ["description"] = "Stolen Artwork"
+},
+["gold"] = {
+    ["name"] = "gold",
+    ["label"] = "Gold Bar",
+    ["weight"] = 200,
+    ["type"] = "item",
+    ["image"] = "blowtorch.png",
+    ["unique"] = false,
+    ["useable"] = false,
+    ["shouldClose"] = false,
+    ["combinable"] = nil,
+    ["description"] = "0x0x"
+},
+["thermite"] = {
+    ["name"] = "thermite",
+    ["label"] = "Thermite Bomb",
+    ["weight"] = 100,
+    ["type"] = "weapon",
+    ["ammotype"] = nil,
+    ["image"] = "weapon_stickybomb.png",
+    ["unique"] = true,
+    ["useable"] = false,
+    ["description"] = "0x0x"
+},
+["bolt_cutter"] = {
+    ["name"] = "bolt_cutter",
+    ["label"] = "Bolt Cutter",
+    ["weight"] = 100,
+    ["type"] = "weapon",
+    ["ammotype"] = nil,
+    ["image"] = "weapon_stickybomb.png",
+    ["unique"] = true,
+    ["useable"] = false,
+    ["description"] = "0x0x"
+},
+["big_drill"] = {
+    ["name"] = "big_drill",
+    ["label"] = "big_drill",
+    ["weight"] = 200,
+    ["type"] = "item",
+    ["image"] = "big_drill.png",
+    ["unique"] = false,
+    ["useable"] = false,
+    ["shouldClose"] = false,
+    ["combinable"] = nil,
+    ["description"] = "0x0x"
+}
