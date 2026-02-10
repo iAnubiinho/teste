@@ -1,0 +1,36 @@
+["bag"] = {
+    ["name"] = "bag",
+    ["label"] = "Bag",
+    ["weight"] = 5,
+    ["type"] = "item",
+    ["image"] = "bag.png",
+    ["unique"] = false,
+    ["useable"] = false,
+    ["shouldClose"] = false,
+    ["combinable"] = nil,
+    ["description"] = "Bag"
+},
+["weed_pooch"] = {
+    ["name"] = "weed_pooch",
+    ["label"] = "Weed Pooch",
+    ["weight"] = 200,
+    ["type"] = "item",
+    ["image"] = "weed_pooch.png",
+    ["unique"] = false,
+    ["useable"] = false,
+    ["shouldClose"] = false,
+    ["combinable"] = nil,
+    ["description"] = "0x0x"
+},
+["coke_pooch"] = {
+    ["name"] = "coke_pooch",
+    ["label"] = "Coke Pooch",
+    ["weight"] = 200,
+    ["type"] = "item",
+    ["image"] = "coke_pooch.png",
+    ["unique"] = false,
+    ["useable"] = false,
+    ["shouldClose"] = false,
+    ["combinable"] = nil,
+    ["description"] = "0x0x"
+},
