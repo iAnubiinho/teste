@@ -1,0 +1,72 @@
+["paintinge"] = {
+    ["name"] = "paintinge",
+    ["label"] = "Painting A",
+    ["weight"] = 100,
+    ["type"] = "item",
+    ["image"] = "paintinge.png",
+    ["unique"] = false,
+    ["useable"] = false,
+    ["shouldClose"] = true,
+    ["combinable"] = nil,
+    ["description"] = "Stolen Artwork"
+},
+["paintingi"] = {
+    ["name"] = "paintingi",
+    ["label"] = "Painting B",
+    ["weight"] = 100,
+    ["type"] = "item",
+    ["image"] = "paintingi.png",
+    ["unique"] = false,
+    ["useable"] = false,
+    ["shouldClose"] = true,
+    ["combinable"] = nil,
+    ["description"] = "Stolen Artwork"
+},
+["paintingh"] = {
+    ["name"] = "paintingh",
+    ["label"] = "Painting C",
+    ["weight"] = 100,
+    ["type"] = "item",
+    ["image"] = "paintingh.png",
+    ["unique"] = false,
+    ["useable"] = false,
+    ["shouldClose"] = true,
+    ["combinable"] = nil,
+    ["description"] = "Stolen Artwork"
+},
+["paintingj"] = {
+    ["name"] = "paintingj",
+    ["label"] = "Painting D",
+    ["weight"] = 100,
+    ["type"] = "item",
+    ["image"] = "paintingj.png",
+    ["unique"] = false,
+    ["useable"] = false,
+    ["shouldClose"] = true,
+    ["combinable"] = nil,
+    ["description"] = "Stolen Artwork"
+},
+["paintingf"] = {
+    ["name"] = "paintingf",
+    ["label"] = "Painting E",
+    ["weight"] = 100,
+    ["type"] = "item",
+    ["image"] = "paintingf.png",
+    ["unique"] = false,
+    ["useable"] = false,
+    ["shouldClose"] = true,
+    ["combinable"] = nil,
+    ["description"] = "Stolen Artwork"
+},
+["paintingg"] = {
+    ["name"] = "paintingg",
+    ["label"] = "Painting F",
+    ["weight"] = 100,
+    ["type"] = "item",
+    ["image"] = "paintingg.png",
+    ["unique"] = false,
+    ["useable"] = false,
+    ["shouldClose"] = true,
+    ["combinable"] = nil,
+    ["description"] = "Stolen Artwork"
+}
