@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<Item>
+		  <modelName>markomods-x17</modelName>
+		  <txdName>markomods-x17</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x17-mag1</modelName>
+		  <txdName>markomods-x17-mag1</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x17-mag2</modelName>
+		  <txdName>markomods-x17-mag2</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x17-flash</modelName>
+		  <txdName>markomods-x17-flash</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>

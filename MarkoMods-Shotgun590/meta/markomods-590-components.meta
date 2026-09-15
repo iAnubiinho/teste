@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF - 8"?>
+
+<CWeaponComponentInfoBlob>
+	<Infos>
+		<Item type='CWeaponComponentInfo'>
+			<Name>COMPONENT_MARKOMODS590_GRIP_01</Name>
+			<Model>markomods-shotgun590-grip1</Model>
+			<LocName>GRIP</LocName>
+			<LocDesc>GRIP</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<AccuracyModifier type='NULL' />
+			<DamageModifier type='NULL' />
+			<bShownOnWheel value='false' />
+			<CreateObject value='true' />
+			<HudDamage value='0' />
+			<HudSpeed value='0' />
+			<HudCapacity value='0' />
+			<HudAccuracy value='0' />
+			<HudRange value='0' />
+		</Item>
+		<Item type='CWeaponComponentInfo'>
+			<Name>COMPONENT_MARKOMODS590_GRIP_02</Name>
+			<Model>markomods-shotgun590-grip2</Model>
+			<LocName>GRIP</LocName>
+			<LocDesc>GRIP</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<AccuracyModifier type='NULL' />
+			<DamageModifier type='NULL' />
+			<bShownOnWheel value='false' />
+			<CreateObject value='true' />
+			<HudDamage value='0' />
+			<HudSpeed value='0' />
+			<HudCapacity value='0' />
+			<HudAccuracy value='0' />
+			<HudRange value='0' />
+		</Item>
+		<Item type='CWeaponComponentInfo'>
+			<Name>COMPONENT_MARKOMODS590_GRIP_03</Name>
+			<Model>markomods-shotgun590-grip3</Model>
+			<LocName>GRIP</LocName>
+			<LocDesc>GRIP</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<AccuracyModifier type='NULL' />
+			<DamageModifier type='NULL' />
+			<bShownOnWheel value='false' />
+			<CreateObject value='true' />
+			<HudDamage value='0' />
+			<HudSpeed value='0' />
+			<HudCapacity value='0' />
+			<HudAccuracy value='0' />
+			<HudRange value='0' />
+		</Item>
+		<Item type='CWeaponComponentInfo'>
+			<Name>COMPONENT_MARKOMODS590_GRIP_04</Name>
+			<Model>markomods-shotgun590-grip4</Model>
+			<LocName>GRIP</LocName>
+			<LocDesc>GRIP</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<AccuracyModifier type='NULL' />
+			<DamageModifier type='NULL' />
+			<bShownOnWheel value='false' />
+			<CreateObject value='true' />
+			<HudDamage value='0' />
+			<HudSpeed value='0' />
+			<HudCapacity value='0' />
+			<HudAccuracy value='0' />
+			<HudRange value='0' />
+		</Item>
+		<Item type='CWeaponComponentInfo'>
+			<Name>COMPONENT_MARKOMODS590_GRIP_05</Name>
+			<Model>markomods-shotgun590-grip5</Model>
+			<LocName>GRIP</LocName>
+			<LocDesc>GRIP</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<AccuracyModifier type='NULL' />
+			<DamageModifier type='NULL' />
+			<bShownOnWheel value='false' />
+			<CreateObject value='true' />
+			<HudDamage value='0' />
+			<HudSpeed value='0' />
+			<HudCapacity value='0' />
+			<HudAccuracy value='0' />
+			<HudRange value='0' />
+		</Item>
+		<Item type='CWeaponComponentScopeInfo'>
+			<Name>COMPONENT_MARKOMODS590_MISC_01</Name>
+			<Model>markomods-shotgun590-misc1</Model>
+			<LocName>MISC</LocName>
+			<LocDesc>MISC</LocDesc>
+			<AttachBone>AAPScop_2</AttachBone>
+			<WeaponAttachBone>WAPScop_2</WeaponAttachBone>
+			<AccuracyModifier type='NULL' />
+			<DamageModifier type='NULL' />
+			<bShownOnWheel value='false' />
+			<CreateObject value='true' />
+			<HudDamage value='0' />
+			<HudSpeed value='0' />
+			<HudCapacity value='0' />
+			<HudAccuracy value='0' />
+			<HudRange value='0' />
+			<CameraHash/>
+			<RecoilShakeAmplitude value="0.280000"/>
+			<Reticule value="0"/>
+			<ReticuleHash/>
+		</Item>
+		<Item type='CWeaponComponentInfo'>
+			<Name>COMPONENT_MARKOMODS590_MISC_02</Name>
+			<Model>markomods-shotgun590-misc2</Model>
+			<LocName>MISC</LocName>
+			<LocDesc>MISC</LocDesc>
+			<AttachBone>AAPScop_2</AttachBone>
+			<WeaponAttachBone>WAPScop_2</WeaponAttachBone>
+			<AccuracyModifier type='NULL' />
+			<DamageModifier type='NULL' />
+			<bShownOnWheel value='false' />
+			<CreateObject value='true' />
+			<HudDamage value='0' />
+			<HudSpeed value='0' />
+			<HudCapacity value='0' />
+			<HudAccuracy value='0' />
+			<HudRange value='0' />
+		</Item>
+		<Item type='CWeaponComponentInfo'>
+			<Name>COMPONENT_MARKOMODS590_MISC_03</Name>
+			<Model>markomods-shotgun590-misc3</Model>
+			<LocName>MISC</LocName>
+			<LocDesc>MISC</LocDesc>
+			<AttachBone>AAPScop_2</AttachBone>
+			<WeaponAttachBone>WAPScop_2</WeaponAttachBone>
+			<AccuracyModifier type='NULL' />
+			<DamageModifier type='NULL' />
+			<bShownOnWheel value='false' />
+			<CreateObject value='true' />
+			<HudDamage value='0' />
+			<HudSpeed value='0' />
+			<HudCapacity value='0' />
+			<HudAccuracy value='0' />
+			<HudRange value='0' />
+		</Item>
+		<Item type='CWeaponComponentInfo'>
+			<Name>COMPONENT_MARKOMODS590_MISC_04</Name>
+			<Model>markomods-shotgun590-misc4</Model>
+			<LocName>MISC</LocName>
+			<LocDesc>MISC</LocDesc>
+			<AttachBone>AAPScop_2</AttachBone>
+			<WeaponAttachBone>WAPScop_2</WeaponAttachBone>
+			<AccuracyModifier type='NULL' />
+			<DamageModifier type='NULL' />
+			<bShownOnWheel value='false' />
+			<CreateObject value='true' />
+			<HudDamage value='0' />
+			<HudSpeed value='0' />
+			<HudCapacity value='0' />
+			<HudAccuracy value='0' />
+			<HudRange value='0' />
+		</Item>
+		<Item type='CWeaponComponentInfo'>
+			<Name>COMPONENT_MARKOMODS590_MISC_05</Name>
+			<Model>markomods-shotgun590-misc5</Model>
+			<LocName>MISC</LocName>
+			<LocDesc>MISC</LocDesc>
+			<AttachBone>AAPScop_2</AttachBone>
+			<WeaponAttachBone>WAPScop_2</WeaponAttachBone>
+			<AccuracyModifier type='NULL' />
+			<DamageModifier type='NULL' />
+			<bShownOnWheel value='false' />
+			<CreateObject value='true' />
+			<HudDamage value='0' />
+			<HudSpeed value='0' />
+			<HudCapacity value='0' />
+			<HudAccuracy value='0' />
+			<HudRange value='0' />
+		</Item>
+		<Item type='CWeaponComponentInfo'>
+			<Name>COMPONENT_MARKOMODS590_STOCK_01</Name>
+			<Model>markomods-shotgun590-stock1</Model>
+			<LocName>STOCK</LocName>
+			<LocDesc>STOCK</LocDesc>
+			<AttachBone>AAPStock</AttachBone>
+			<WeaponAttachBone>WAPStock</WeaponAttachBone>
+			<AccuracyModifier type='NULL' />
+			<DamageModifier type='NULL' />
+			<bShownOnWheel value='false' />
+			<CreateObject value='true' />
+			<HudDamage value='0' />
+			<HudSpeed value='0' />
+			<HudCapacity value='0' />
+			<HudAccuracy value='0' />
+			<HudRange value='0' />
+		</Item>
+		<Item type='CWeaponComponentInfo'>
+			<Name>COMPONENT_MARKOMODS590_STOCK_02</Name>
+			<Model>markomods-shotgun590-stock2</Model>
+			<LocName>STOCK</LocName>
+			<LocDesc>STOCK</LocDesc>
+			<AttachBone>AAPStock</AttachBone>
+			<WeaponAttachBone>WAPStock</WeaponAttachBone>
+			<AccuracyModifier type='NULL' />
+			<DamageModifier type='NULL' />
+			<bShownOnWheel value='false' />
+			<CreateObject value='true' />
+			<HudDamage value='0' />
+			<HudSpeed value='0' />
+			<HudCapacity value='0' />
+			<HudAccuracy value='0' />
+			<HudRange value='0' />
+		</Item>
+		<Item type='CWeaponComponentInfo'>
+			<Name>COMPONENT_MARKOMODS590_STOCK_03</Name>
+			<Model>markomods-shotgun590-stock3</Model>
+			<LocName>STOCK</LocName>
+			<LocDesc>STOCK</LocDesc>
+			<AttachBone>AAPStock</AttachBone>
+			<WeaponAttachBone>WAPStock</WeaponAttachBone>
+			<AccuracyModifier type='NULL' />
+			<DamageModifier type='NULL' />
+			<bShownOnWheel value='false' />
+			<CreateObject value='true' />
+			<HudDamage value='0' />
+			<HudSpeed value='0' />
+			<HudCapacity value='0' />
+			<HudAccuracy value='0' />
+			<HudRange value='0' />
+		</Item>
+		<Item type='CWeaponComponentInfo'>
+			<Name>COMPONENT_MARKOMODS590_STOCK_04</Name>
+			<Model>markomods-shotgun590-stock4</Model>
+			<LocName>STOCK</LocName>
+			<LocDesc>STOCK</LocDesc>
+			<AttachBone>AAPStock</AttachBone>
+			<WeaponAttachBone>WAPStock</WeaponAttachBone>
+			<AccuracyModifier type='NULL' />
+			<DamageModifier type='NULL' />
+			<bShownOnWheel value='false' />
+			<CreateObject value='true' />
+			<HudDamage value='0' />
+			<HudSpeed value='0' />
+			<HudCapacity value='0' />
+			<HudAccuracy value='0' />
+			<HudRange value='0' />
+		</Item>
+		<Item type='CWeaponComponentInfo'>
+			<Name>COMPONENT_MARKOMODS590_STOCK_05</Name>
+			<Model>markomods-shotgun590-stock5</Model>
+			<LocName>STOCK</LocName>
+			<LocDesc>STOCK</LocDesc>
+			<AttachBone>AAPStock</AttachBone>
+			<WeaponAttachBone>WAPStock</WeaponAttachBone>
+			<AccuracyModifier type='NULL' />
+			<DamageModifier type='NULL' />
+			<bShownOnWheel value='false' />
+			<CreateObject value='true' />
+			<HudDamage value='0' />
+			<HudSpeed value='0' />
+			<HudCapacity value='0' />
+			<HudAccuracy value='0' />
+			<HudRange value='0' />
+		</Item>
+		<Item type='CWeaponComponentInfo'>
+			<Name>COMPONENT_MARKOMODS590_STOCK_06</Name>
+			<Model>markomods-shotgun590-stock6</Model>
+			<LocName>STOCK</LocName>
+			<LocDesc>STOCK</LocDesc>
+			<AttachBone>AAPStock</AttachBone>
+			<WeaponAttachBone>WAPStock</WeaponAttachBone>
+			<AccuracyModifier type='NULL' />
+			<DamageModifier type='NULL' />
+			<bShownOnWheel value='false' />
+			<CreateObject value='true' />
+			<HudDamage value='0' />
+			<HudSpeed value='0' />
+			<HudCapacity value='0' />
+			<HudAccuracy value='0' />
+			<HudRange value='0' />
+		</Item>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_MARKOMODS590_SUPPRESSOR_01</Name>
+			<Model>markomods-shotgun590-suppressor</Model>
+			<LocName>WCT_SUPPRESSOR</LocName>
+			<LocDesc>WCD_SUPPRESSOR</LocDesc>
+			<AttachBone>AAPSupp</AttachBone>
+			<WeaponAttachBone>WAPSupp</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="-5"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="-5"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_assault_rifle</FlashFx>
+			<ShouldSilence value="true" />
+		</Item>
+	</Infos>
+	<InfoBlobName />
+</CWeaponComponentInfoBlob>

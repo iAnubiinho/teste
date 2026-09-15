@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CWeaponModelInfo__InitDataList>
+    <InitDatas>
+        <Item>
+            <modelName>markomods-shotgun590</modelName>
+            <txdName>markomods-shotgun590</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+		<Item>
+            <modelName>markomods-shotgun590-grip1</modelName>
+            <txdName>markomods-shotgun590-grips</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+		<Item>
+            <modelName>markomods-shotgun590-grip2</modelName>
+            <txdName>markomods-shotgun590-grips</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+		<Item>
+            <modelName>markomods-shotgun590-grip3</modelName>
+            <txdName>markomods-shotgun590-grips</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+		<Item>
+            <modelName>markomods-shotgun590-grip4</modelName>
+            <txdName>markomods-shotgun590-grips</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+		<Item>
+            <modelName>markomods-shotgun590-grip5</modelName>
+            <txdName>markomods-shotgun590-grips</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-shotgun590-misc1</modelName>
+            <txdName>markomods-shotgun590</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-shotgun590-misc2</modelName>
+            <txdName>markomods-shotgun590</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-shotgun590-misc3</modelName>
+            <txdName>markomods-shotgun590</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-shotgun590-misc4</modelName>
+            <txdName>markomods-shotgun590</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-shotgun590-misc5</modelName>
+            <txdName>markomods-shotgun590</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-shotgun590-stock1</modelName>
+            <txdName>markomods-shotgun590-stocks</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-shotgun590-stock2</modelName>
+            <txdName>markomods-shotgun590-stocks</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-shotgun590-stock3</modelName>
+            <txdName>markomods-shotgun590-stocks</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-shotgun590-stock4</modelName>
+            <txdName>markomods-shotgun590-stocks</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-shotgun590-stock5</modelName>
+            <txdName>markomods-shotgun590-stocks</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-shotgun590-stock6</modelName>
+            <txdName>markomods-shotgun590-stocks</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-shotgun590-suppressor</modelName>
+            <txdName>markomods-shotgun590-suppressor</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+    </InitDatas>
+</CWeaponModelInfo__InitDataList>
