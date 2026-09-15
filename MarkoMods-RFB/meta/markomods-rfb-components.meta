@@ -1,0 +1,622 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<CWeaponComponentInfoBlob>
+    <Infos>
+		<Item type='CWeaponComponentClipInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_CLIP_1</Name>
+		  <Model>markomods-rfb-mag1</Model>
+		  <LocName>CLIP</LocName>
+		  <LocDesc>CLIP</LocDesc>
+		  <AttachBone>AAPClip</AttachBone>
+		  <WeaponAttachBone>WAPClip</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+		  <ClipSize value='10' />
+		  <ReloadData ref='RELOAD_DEFAULT' />
+        </Item>
+		<Item type='CWeaponComponentClipInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_CLIP_2</Name>
+		  <Model>markomods-rfb-mag2</Model>
+		  <LocName>CLIP</LocName>
+		  <LocDesc>CLIP</LocDesc>
+		  <AttachBone>AAPClip</AttachBone>
+		  <WeaponAttachBone>WAPClip</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+		  <ClipSize value='20' />
+		  <ReloadData ref='RELOAD_DEFAULT' />
+        </Item>
+		<Item type='CWeaponComponentClipInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_CLIP_3</Name>
+		  <Model>markomods-rfb-mag3</Model>
+		  <LocName>CLIP</LocName>
+		  <LocDesc>CLIP</LocDesc>
+		  <AttachBone>AAPClip</AttachBone>
+		  <WeaponAttachBone>WAPClip</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+		  <ClipSize value='30' />
+		  <ReloadData ref='RELOAD_DEFAULT' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_BODY_1</Name>
+		  <Model>markomods-rfb-body1</Model>
+		  <LocName>STOCK</LocName>
+		  <LocDesc>STOCK</LocDesc>
+		  <AttachBone>AAPStock</AttachBone>
+		  <WeaponAttachBone>WAPStock</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_BODY_2</Name>
+		  <Model>markomods-rfb-body2</Model>
+		  <LocName>STOCK</LocName>
+		  <LocDesc>STOCK</LocDesc>
+		  <AttachBone>AAPStock</AttachBone>
+		  <WeaponAttachBone>WAPStock</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentScopeInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_SCOPE_1</Name>
+		  <Model>rfb_scope1</Model>
+		  <LocName>SCOPE</LocName>
+		  <LocDesc>SCOPE</LocDesc>
+		  <AttachBone>AAPScope</AttachBone>
+		  <WeaponAttachBone>WAPScope</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+		  <CameraHash />
+		  <RecoilShakeAmplitude value='0.250000' />
+		  <ExtraZoomFactorForAccurateMode value='1.000000' />
+		  <Reticule value='0' />
+		  <ReticuleHash />
+        </Item>
+		<Item type='CWeaponComponentScopeInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_SCOPE_2</Name>
+		  <Model>rfb_scope2</Model>
+		  <LocName>SCOPE</LocName>
+		  <LocDesc>SCOPE</LocDesc>
+		  <AttachBone>AAPScope</AttachBone>
+		  <WeaponAttachBone>WAPScope</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+		  <CameraHash />
+		  <RecoilShakeAmplitude value='0.250000' />
+		  <ExtraZoomFactorForAccurateMode value='1.000000' />
+		  <Reticule value='0' />
+		  <ReticuleHash />
+        </Item>
+		<Item type='CWeaponComponentScopeInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_SCOPE_3</Name>
+		  <Model>rfb_scope3</Model>
+		  <LocName>SCOPE</LocName>
+		  <LocDesc>SCOPE</LocDesc>
+		  <AttachBone>AAPScope</AttachBone>
+		  <WeaponAttachBone>WAPScope</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+		  <CameraHash />
+		  <RecoilShakeAmplitude value='0.250000' />
+		  <ExtraZoomFactorForAccurateMode value='1.000000' />
+		  <Reticule value='0' />
+		  <ReticuleHash />
+        </Item>
+		<Item type='CWeaponComponentScopeInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_SCOPE_4</Name>
+		  <Model>rfb_scope4</Model>
+		  <LocName>SCOPE</LocName>
+		  <LocDesc>SCOPE</LocDesc>
+		  <AttachBone>AAPScope</AttachBone>
+		  <WeaponAttachBone>WAPScope</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+		  <CameraHash />
+		  <RecoilShakeAmplitude value='0.250000' />
+		  <ExtraZoomFactorForAccurateMode value='1.000000' />
+		  <Reticule value='0' />
+		  <ReticuleHash />
+        </Item>
+		<Item type='CWeaponComponentScopeInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_SCOPE_5</Name>
+		  <Model>rfb_scope5</Model>
+		  <LocName>SCOPE</LocName>
+		  <LocDesc>SCOPE</LocDesc>
+		  <AttachBone>AAPScope</AttachBone>
+		  <WeaponAttachBone>WAPScope</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+		  <CameraHash />
+		  <RecoilShakeAmplitude value='0.250000' />
+		  <ExtraZoomFactorForAccurateMode value='1.000000' />
+		  <Reticule value='0' />
+		  <ReticuleHash />
+        </Item>
+		<Item type='CWeaponComponentScopeInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_SCOPE_6</Name>
+		  <Model>rfb_scope6</Model>
+		  <LocName>SCOPE</LocName>
+		  <LocDesc>SCOPE</LocDesc>
+		  <AttachBone>AAPScope</AttachBone>
+		  <WeaponAttachBone>WAPScope</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+		  <CameraHash />
+		  <RecoilShakeAmplitude value='0.250000' />
+		  <ExtraZoomFactorForAccurateMode value='1.000000' />
+		  <Reticule value='0' />
+		  <ReticuleHash />
+        </Item>
+		<Item type='CWeaponComponentScopeInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_SCOPE_7</Name>
+		  <Model>rfb_scope7</Model>
+		  <LocName>SCOPE</LocName>
+		  <LocDesc>SCOPE</LocDesc>
+		  <AttachBone>AAPScope</AttachBone>
+		  <WeaponAttachBone>WAPScope</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+		  <CameraHash />
+		  <RecoilShakeAmplitude value='0.250000' />
+		  <ExtraZoomFactorForAccurateMode value='1.000000' />
+		  <Reticule value='0' />
+		  <ReticuleHash />
+        </Item>
+		<Item type='CWeaponComponentScopeInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_SCOPE_8</Name>
+		  <Model>rfb_scope8</Model>
+		  <LocName>SCOPE</LocName>
+		  <LocDesc>SCOPE</LocDesc>
+		  <AttachBone>AAPScope</AttachBone>
+		  <WeaponAttachBone>WAPScope</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+		  <CameraHash />
+		  <RecoilShakeAmplitude value='0.250000' />
+		  <ExtraZoomFactorForAccurateMode value='1.000000' />
+		  <Reticule value='0' />
+		  <ReticuleHash />
+        </Item>
+		<Item type='CWeaponComponentScopeInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_SCOPE_9</Name>
+		  <Model>rfb_scope9</Model>
+		  <LocName>SCOPE</LocName>
+		  <LocDesc>SCOPE</LocDesc>
+		  <AttachBone>AAPScope</AttachBone>
+		  <WeaponAttachBone>WAPScope</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+		  <CameraHash />
+		  <RecoilShakeAmplitude value='0.250000' />
+		  <ExtraZoomFactorForAccurateMode value='1.000000' />
+		  <Reticule value='0' />
+		  <ReticuleHash />
+        </Item>
+		<Item type='CWeaponComponentScopeInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_SCOPE_10</Name>
+		  <Model>rfb_scope10</Model>
+		  <LocName>SCOPE</LocName>
+		  <LocDesc>SCOPE</LocDesc>
+		  <AttachBone>AAPScope</AttachBone>
+		  <WeaponAttachBone>WAPScope</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+		  <CameraHash />
+		  <RecoilShakeAmplitude value='0.250000' />
+		  <ExtraZoomFactorForAccurateMode value='1.000000' />
+		  <Reticule value='0' />
+		  <ReticuleHash />
+        </Item>
+		<Item type='CWeaponComponentScopeInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_SCOPE_11</Name>
+		  <Model>rfb_scope11</Model>
+		  <LocName>SCOPE</LocName>
+		  <LocDesc>SCOPE</LocDesc>
+		  <AttachBone>AAPScope</AttachBone>
+		  <WeaponAttachBone>WAPScope</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+		  <CameraHash />
+		  <RecoilShakeAmplitude value='0.250000' />
+		  <ExtraZoomFactorForAccurateMode value='1.000000' />
+		  <Reticule value='0' />
+		  <ReticuleHash />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_GRIP_1</Name>
+		  <Model>rfb_grip1</Model>
+		  <LocName>GRIP</LocName>
+		  <LocDesc>GRIP</LocDesc>
+		  <AttachBone>AAPGrip</AttachBone>
+		  <WeaponAttachBone>WAPGrip</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_GRIP_2</Name>
+		  <Model>rfb_grip2</Model>
+		  <LocName>GRIP</LocName>
+		  <LocDesc>GRIP</LocDesc>
+		  <AttachBone>AAPGrip</AttachBone>
+		  <WeaponAttachBone>WAPGrip</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_GRIP_3</Name>
+		  <Model>rfb_grip3</Model>
+		  <LocName>GRIP</LocName>
+		  <LocDesc>GRIP</LocDesc>
+		  <AttachBone>AAPGrip</AttachBone>
+		  <WeaponAttachBone>WAPGrip</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_GRIP_4</Name>
+		  <Model>rfb_grip4</Model>
+		  <LocName>GRIP</LocName>
+		  <LocDesc>GRIP</LocDesc>
+		  <AttachBone>AAPGrip</AttachBone>
+		  <WeaponAttachBone>WAPGrip</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_GRIP_5</Name>
+		  <Model>rfb_grip5</Model>
+		  <LocName>GRIP</LocName>
+		  <LocDesc>GRIP</LocDesc>
+		  <AttachBone>AAPGrip</AttachBone>
+		  <WeaponAttachBone>WAPGrip</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_GRIP_6</Name>
+		  <Model>rfb_grip6</Model>
+		  <LocName>GRIP</LocName>
+		  <LocDesc>GRIP</LocDesc>
+		  <AttachBone>AAPGrip</AttachBone>
+		  <WeaponAttachBone>WAPGrip</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_GRIP_7</Name>
+		  <Model>rfb_grip7</Model>
+		  <LocName>GRIP</LocName>
+		  <LocDesc>GRIP</LocDesc>
+		  <AttachBone>AAPGrip</AttachBone>
+		  <WeaponAttachBone>WAPGrip</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_GRIP_8</Name>
+		  <Model>rfb_grip8</Model>
+		  <LocName>GRIP</LocName>
+		  <LocDesc>GRIP</LocDesc>
+		  <AttachBone>AAPGrip</AttachBone>
+		  <WeaponAttachBone>WAPGrip</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_GRIP_9</Name>
+		  <Model>rfb_grip9</Model>
+		  <LocName>GRIP</LocName>
+		  <LocDesc>GRIP</LocDesc>
+		  <AttachBone>AAPGrip</AttachBone>
+		  <WeaponAttachBone>WAPGrip</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_GRIP_10</Name>
+		  <Model>rfb_grip10</Model>
+		  <LocName>GRIP</LocName>
+		  <LocDesc>GRIP</LocDesc>
+		  <AttachBone>AAPGrip</AttachBone>
+		  <WeaponAttachBone>WAPGrip</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_GRIP_11</Name>
+		  <Model>rfb_grip11</Model>
+		  <LocName>GRIP</LocName>
+		  <LocDesc>GRIP</LocDesc>
+		  <AttachBone>AAPGrip</AttachBone>
+		  <WeaponAttachBone>WAPGrip</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentSuppressorInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_SUPPRESSOR_1</Name>
+		  <Model>rfb_suppressor1</Model>
+		  <LocName>SUPPRESSOR</LocName>
+		  <LocDesc>SUPPRESSOR</LocDesc>
+		  <AttachBone>AAPSuppressor</AttachBone>
+		  <WeaponAttachBone>WAPSuppressor</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+		  <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+		  <FlashFx>muz_pistol_silencer</FlashFx>
+        </Item>
+		<Item type='CWeaponComponentSuppressorInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_SUPPRESSOR_2</Name>
+		  <Model>rfb_suppressor2</Model>
+		  <LocName>SUPPRESSOR</LocName>
+		  <LocDesc>SUPPRESSOR</LocDesc>
+		  <AttachBone>AAPSuppressor</AttachBone>
+		  <WeaponAttachBone>WAPSuppressor</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+		  <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+		  <FlashFx>muz_pistol_silencer</FlashFx>
+        </Item>
+		<Item type='CWeaponComponentSuppressorInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_SUPPRESSOR_3</Name>
+		  <Model>rfb_suppressor3</Model>
+		  <LocName>SUPPRESSOR</LocName>
+		  <LocDesc>SUPPRESSOR</LocDesc>
+		  <AttachBone>AAPSuppressor</AttachBone>
+		  <WeaponAttachBone>WAPSuppressor</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+		  <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+		  <FlashFx>muz_pistol_silencer</FlashFx>
+        </Item>
+		<Item type='CWeaponComponentSuppressorInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_SUPPRESSOR_4</Name>
+		  <Model>rfb_suppressor4</Model>
+		  <LocName>SUPPRESSOR</LocName>
+		  <LocDesc>SUPPRESSOR</LocDesc>
+		  <AttachBone>AAPSuppressor</AttachBone>
+		  <WeaponAttachBone>WAPSuppressor</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+		  <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+		  <FlashFx>muz_pistol_silencer</FlashFx>
+        </Item>
+		<Item type='CWeaponComponentSuppressorInfo'>
+		  <Name>COMPONENT_MARKOMODS_RFB_SUPPRESSOR_5</Name>
+		  <Model>rfb_suppressor5</Model>
+		  <LocName>SUPPRESSOR</LocName>
+		  <LocDesc>SUPPRESSOR</LocDesc>
+		  <AttachBone>AAPSuppressor</AttachBone>
+		  <WeaponAttachBone>WAPSuppressor</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+		  <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+		  <FlashFx>muz_pistol_silencer</FlashFx>
+        </Item>
+    </Infos>
+    <InfoBlobName></InfoBlobName>
+</CWeaponComponentInfoBlob>

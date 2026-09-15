@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CWeaponModelInfo__InitDataList>
+    <InitDatas>
+        <Item>
+            <modelName>markomods-rfb</modelName>
+            <txdName>markomods-rfb</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-rfb-mag1</modelName>
+            <txdName>markomods-rfb-mags</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-rfb-mag2</modelName>
+            <txdName>markomods-rfb-mags</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-rfb-mag3</modelName>
+            <txdName>markomods-rfb-mags</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-rfb-body1</modelName>
+            <txdName>markomods-rfb</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-rfb-body2</modelName>
+            <txdName>markomods-rfb</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+    </InitDatas>
+</CWeaponModelInfo__InitDataList>
