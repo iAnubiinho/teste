@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		
+		<!-- Main -->
+		<Item>
+		  <modelName>markomods-2s</modelName>
+		  <txdName>markomods-2s</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		
+		<!-- Barrels -->
+		<Item>
+		  <modelName>markomods-2s-barrel1</modelName>
+		  <txdName>markomods-2s</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-2s-barrel2</modelName>
+		  <txdName>markomods-2s</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-2s-barrel3</modelName>
+		  <txdName>markomods-2s</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-2s-barrel4</modelName>
+		  <txdName>markomods-2s</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-2s-barrel5</modelName>
+		  <txdName>markomods-2s</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+
+		<!-- Mags -->
+		<Item>
+		  <modelName>markomods-2s-tube1</modelName>
+		  <txdName>markomods-2s</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-2s-tube2</modelName>
+		  <txdName>markomods-2s</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-2s-tube3</modelName>
+		  <txdName>markomods-2s</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-2s-tube4</modelName>
+		  <txdName>markomods-2s</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item><Item>
+		  <modelName>markomods-2s-shell</modelName>
+		  <txdName>markomods-2s-shell</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+
+		<!-- Stocks -->
+		<Item>
+		  <modelName>markomods-2s-stock1</modelName>
+		  <txdName>markomods-2s</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-stock2</modelName>
+			<txdName>markomods-2s</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+
+		<!-- Suppressors -->
+		<Item>
+		  <modelName>markomods-2s-suppressor1</modelName>
+		  <txdName>markomods-2s-attachments</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-suppressor2</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-2s-suppressor3</modelName>
+		  <txdName>markomods-2s-attachments</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-suppressor4</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-2s-suppressor5</modelName>
+		  <txdName>markomods-2s-attachments</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-suppressor6</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-2s-suppressor7</modelName>
+		  <txdName>markomods-2s-attachments</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-suppressor8</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+		
+		<!-- Flash -->
+		<Item>
+			<modelName>markomods-2s-flsh1</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-flsh2</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-flsh3</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-flsh4</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-flsh5</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-flsh6</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-flsh7</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-scope1</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-scope2</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-scope3</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-scope4</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-scope5</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-scope6</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-scope7</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-scope8</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-scope9</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+		<Item>
+			<modelName>markomods-2s-scope10</modelName>
+			<txdName>markomods-2s-attachments</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="75"/>
+		</Item>
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>
